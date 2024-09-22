@@ -1,3 +1,6 @@
+/*!****************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/assets/css/login.css ***!
+  \****************************************************************************/
 body{
 display: flex;
 position: absolute;
@@ -218,5 +221,3 @@ color: white;
     0% { transform: rotate(0deg); } /* Start at 0 degrees */
     100% { transform: rotate(360deg); } /* Complete rotation */
   }
-
-/*# sourceMappingURL=styles.52301891be0d7653a2ce.css.map*/

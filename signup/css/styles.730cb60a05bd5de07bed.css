@@ -1,3 +1,6 @@
+/*!*****************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/assets/css/signup.css ***!
+  \*****************************************************************************/
 body{
     display: flex;
     position: absolute;
@@ -246,5 +249,3 @@ body{
         100% { transform: rotate(360deg); } /* Complete rotation */
       }
       
-
-/*# sourceMappingURL=styles.f54bd1a51b4e29e10ca9.css.map*/

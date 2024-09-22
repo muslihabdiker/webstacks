@@ -1,3 +1,6 @@
+/*!********************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/assets/css/dashboard.css ***!
+  \********************************************************************************/
 body{
   display: flex;
   position: fixed;
@@ -373,5 +376,3 @@ flex-direction: column;
 .recentActivity{
 
 }
-
-/*# sourceMappingURL=styles.178da67421267b825863.css.map*/

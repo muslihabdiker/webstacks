@@ -1,3 +1,6 @@
+/*!*****************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/assets/css/forgot.css ***!
+  \*****************************************************************************/
 body{
     display: flex;
     position: absolute;
@@ -219,5 +222,3 @@ body{
         0% { transform: rotate(0deg); } /* Start at 0 degrees */
         100% { transform: rotate(360deg); } /* Complete rotation */
       }
-
-/*# sourceMappingURL=styles.06b4e504068be3fcc2ac.css.map*/
