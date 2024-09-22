@@ -1,0 +1,253 @@
+body{
+    display: flex;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    }
+    .wrapper{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 7cm;
+    height: 7cm;
+    margin: 0cm;
+    padding: 0cm;
+    gap: 0.5cm;
+    background-color: transparent;
+    border-radius: 0;
+    border-style: none;
+    }
+    .header{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: auto;
+    margin: 0cm;
+    padding: 0cm;
+    gap: 0cm;
+    background-color: transparent;
+    border-radius: 0;
+    border-style: none;
+    }
+    .middleInputsHolder{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+        height: auto;
+        margin: 0cm;
+        padding: 0cm;
+        gap: 0.5cm;
+        background-color: transparent;
+        border-radius: 0;
+        border-style: none;
+    }
+    .bottomInputsHolder{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+        height: auto;
+        margin: 0cm;
+        padding: 0cm;
+        gap: 0.5cm;
+        background-color: transparent;
+        border-radius: 0;
+        border-style: none;
+    }
+    .signupHolder{
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        width: auto;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+        margin: 0cm;
+        padding: 0cm;
+        gap: 0.1m;
+        background-color: transparent;
+        border-radius: 0;
+        border-style: none;
+    }
+    .logoImg{
+    position: relative;
+    width: 2cm;
+    height: auto;
+    }
+    .infoText{
+    color: white;
+    }
+    .simpleNota{
+    
+    }
+    .commonInput{
+    position: relative;
+    width: 7cm;
+    height: 1cm;
+    padding: 0cm;
+    color: grey;
+    text-align: center;
+    background-color: transparent;
+    border-style: none;
+    outline: none;
+    font-size: large;
+    color: white;
+    border-radius: 0.3cm;
+    z-index: 1;
+    box-shadow: inset 0 0 0 100px transparent; /* Create space to avoid border visibility through label */
+    border:1px solid;
+    border-color: gray;
+    
+    }
+    
+    /* When the input is focused or filled, move the label */
+    .emailGroup{
+        display: flex;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        background-color: transparent;
+    
+    }
+    .pwdGroup{
+        display: flex;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        background-color: transparent;
+    }
+    .confirmPasswordGroup{
+        display: flex;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        background-color: transparent;
+    }
+    .emailLabel{
+        position: absolute;
+        color: gray;
+        pointer-events: none;
+        transition: all 0.2s ease;
+        z-index: 2;
+        padding: 0 5px;
+    }
+    .passwordLabel{
+        position: absolute;
+        color: gray;
+        pointer-events: none;
+        transition: all 0.2s ease;
+        z-index: 2;
+        padding: 0 5px;
+    }
+    .confirmPasswordLabel{
+        position: absolute;
+        color: gray;
+        pointer-events: none;
+        transition: all 0.2s ease;
+        z-index: 2;
+        padding: 0 5px;
+    }
+    .commonInput:focus + .confirmPasswordLabel,
+    .commonInput:not(:placeholder-shown) + .confirmPasswordLabel  {
+      top: -15px;
+      font-size: 14px;
+      color: #FB847C;
+      font-weight: bolder;
+      background-color: transparent;
+      z-index: 1111;
+    }
+    .commonInput:focus + .passwordLabel,
+    .commonInput:not(:placeholder-shown) + .passwordLabel  {
+      top: -15px;
+      font-size: 14px;
+      color: #FB847C;
+      font-weight: bolder;
+      background-color: transparent;
+      z-index: 1111;
+    }
+    .commonInput:focus + .emailLabel,
+    .commonInput:not(:placeholder-shown) + .emailLabel  {
+      top: -15px;
+      font-size: 14px;
+      color: #FB847C;
+      font-weight: bolder;
+      background-color: transparent;
+      z-index: 1111;
+    }
+    .loginButton{
+    position: relative;
+    width: 7cm;
+    height: 1cm;
+    padding: 0cm;
+    margin: 0cm;
+    background-color: #CC34AD;
+    color: white;
+    border-style: none;
+    border-radius: 0.4cm;
+    transition: 0.3s ease-in-out;
+    align-items: center;
+    }
+    .loginButton:hover{
+        cursor: pointer;
+        transition: 0.3s ease-in-out;
+    }
+    .forgotPwd{
+    color: gray;
+    text-decoration: none;
+    align-self: flex-end;
+    }
+    .forgotPwd:hover{
+        cursor: pointer;
+        text-decoration: underline;
+    }
+    .signupLink{
+        color: #FB847C;
+        text-decoration: none;
+    }
+    .signupLink:hover{
+        cursor: pointer;
+        text-decoration: underline;
+    }
+    .signupText{
+    color: white;
+    }
+    .loginH1{
+    color: white;
+    }
+    .loader {
+        border: 4px solid rgba(255, 255, 255, 0.3); /* Light gray background for transparency */
+        border-top: 4px solid white; /* White color for the loader */
+        border-radius: 50%;
+        width: 24px; /* Size of the loader */
+        height: 24px; /* Size of the loader */
+        animation: spin 1s linear infinite;
+        display: inline-block;
+      }
+      
+      @keyframes spin {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+      
+
+/*# sourceMappingURL=styles.10ca78ff35a46a8c7c7c.css.map*/

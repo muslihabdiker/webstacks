@@ -1,0 +1,377 @@
+body{
+  display: flex;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  }
+.dashWrapper {
+  display: flex;
+  flex-direction: column;
+  /* height: 100vh; */
+  background-color: #2B0083;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  gap: 0;
+  position: relative;
+}
+
+/* Header Styles */
+.headerWrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: #2B0083;
+  /* padding: 10px; */
+  /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); */
+  width: 100%;
+  height: 15cm;
+  justify-content: space-around;
+  margin: 0;
+}
+.headerBottomWrapper{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  padding: 0.5cm;
+}
+
+.headerTopWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5cm;
+}
+
+.profilewrapper {
+  display: flex;
+  align-items: center;
+}
+.headerProfileImg{
+  width: 1cm;
+  height: auto;
+}
+.profileImgHolder{
+  width: 1cm;
+  height: auto;
+  border-radius: 50%;
+}
+.profileImgHolder{
+  cursor: pointer;
+}
+
+.profileInfoHolder {
+  margin-left: 10px;
+}
+
+.headerTopRightControlsHolder {
+  display: flex;
+  align-items: center;
+}
+
+.notificationImg {
+  width: 1cm;
+  height: auto;
+  cursor: pointer;
+}
+
+/* Bottomsheet Styles */
+.bottomsheetWrapper {
+    /* bottom: 0; */
+    /* flex: 1; */
+    background-color: white;
+    /* border-top-left-radius: 20px; */
+    /* border-top-right-radius: 20px; */
+    /* box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); */
+    padding: 0;
+    border-style: none;
+    border-top-right-radius: 0.4cm;
+    border-top-left-radius: 0.4cm;
+    display: flex;
+    flex-direction: column;
+    height: 20cm;
+    z-index: 1;
+    margin: 0;
+    gap: 0;
+    position: relative;
+    width: 100%;
+}
+
+.bottomsheetHeader {
+  border-style: none;
+  /* margin-bottom: 10px; */
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: fit-content;
+  position: relative;
+  background-color: transparent;
+}
+.bottomsheetBottom{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: fit-content;
+  align-items: center;
+}
+.bottomsheetHeaderTop {
+  position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5cm;
+    background-color: transparent;
+    margin: 0.1cm;
+    padding: 0;
+    left: 0;
+    border-style: none;
+    border-radius: 0;
+    text-align: start;
+    align-self: center;
+}
+.bottomsheetHeaderTopControlsHolder{
+  display: flex;
+  flex-direction: row;
+  background-color: transparent;
+  gap: 1cm;
+  width: 100%;
+  height: auto;
+}
+.bottomsheetBottomBottomControlsHolder{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: fit-content;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1cm;
+  align-self: center;
+}
+.actionsTitle {
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+  align-self: flex-start;
+}
+
+.sendControlGroup,
+.withdrawControlGroup,
+.topupControlGroup,
+.sendtobankControlGroup {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  flex-direction: column;
+}
+
+.sendImg,
+.withdrawImg,
+.topupImg,
+.sendtobankImg {
+  width: 1cm;
+  height: auto;
+  margin-right: 10px;
+}
+
+.sendText,
+.withdrawText,
+.topupText,
+.sendtoBankText {
+  font-size: 16px;
+  color: black;
+}
+.sendControlGroup:hover,
+.withdrawControlGroup:hover,
+.topupControlGroup:hover,
+.sendtobankControlGroup:hover {
+  cursor: pointer;
+}
+
+/* Activity Styles */
+.activityText {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 20px;
+  color: black;
+}
+
+
+/* M-Pesa Group Styles */
+.mpesaGroup {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  flex-direction: row;
+  gap: 0.5cm;
+}
+
+.mpesaImgHolder{
+  display: flex;
+  width: 2cm;
+  height: 2cm;
+  padding: 0;
+  background-color: #011A51;
+  border-radius: 100%;
+  border-style: none;
+  align-items: center;
+  justify-content: center;
+}
+.mpesaImgHolder:hover{
+  cursor: pointer;
+}
+.mpesaImg{
+  width: 1.5cm;
+  height: auto;
+  filter: invert(1);
+}
+
+.nameAndGroupInfoHolder {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Transaction Information */
+.transactionType{
+  font-size: 14px;
+  color: #666;
+}
+.transactionStatus {
+  font-size: 14px;
+  color: black;
+  font-weight: bold;
+}
+
+/* Navbar Styles */
+.navbarWrapper {
+  display: flex;
+  justify-content: space-around;
+  background-color: white;
+  /* border-top: 1px solid #e0e0e0; */
+  /* padding: 10px 0; */
+  height: fit-content;
+  width: 100%;
+}
+
+.navbarHomeHolder,
+.navbarActivityHolder,
+.navbarPaymentHolder,
+.navbarProfileHolder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: transparent;
+
+}
+
+.homeImg,
+.activityImg,
+.walletImg,
+.navbarProfileImg {
+  width: 1cm;
+  height: auto;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+/* General Styles */
+h1, h3, p {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: large;
+  color: white;
+}
+
+h3 {
+  font-size: large;
+  color: white;
+}
+
+p {
+  font-size: large;
+  color: white;
+}
+
+.balanceHolder {
+  margin-top: 10px;
+  width: fit-content;
+  height: fit-content;
+}
+.balanceText{
+  font-size: xx-large;
+    color: white;
+    font-weight: bold;
+}
+.balance{
+  font-size: x-large;
+    color: white;
+    font-weight: 500;
+}
+.notificationGroup{
+display: flex;
+flex-direction: row;
+width: auto;
+height: auto;
+background-color: transparent;
+}
+.cardGroup{
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  height: auto;
+  background-color: transparent;
+}
+.visaLogo{
+  position: relative;
+  width: 1cm;
+  height: auto;
+  filter: invert();
+}
+.visaLogo:hover{
+  cursor: pointer;
+}
+.notificationImg{
+  position: relative;
+  width: 1cm;
+  height: auto;
+  filter: invert();
+}
+.notificationImg:hover{
+  cursor: pointer;
+}
+.bottomsheetBottomBottomControlsWrapper{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  height: auto;
+  background-color: transparent;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 0.1cm;
+}
+.mpesaTitle{
+  color: black;
+}
+.amount{
+  color: black;
+}
+
+/*# sourceMappingURL=styles.f8b526b304148aaaf379.css.map*/
