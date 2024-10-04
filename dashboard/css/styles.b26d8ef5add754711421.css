@@ -426,7 +426,7 @@ body{
     display: flex;
     position: relative;
     flex-direction: column;
-    margin: 1cm;
+    margin: 0cm;
     padding: 0;
     gap: 0cm;
     justify-content: center;
@@ -877,4 +877,4 @@ height: auto;
 }
 
 
-/*# sourceMappingURL=styles.10fde497fdf1825ebe58.css.map*/
+/*# sourceMappingURL=styles.b26d8ef5add754711421.css.map*/
