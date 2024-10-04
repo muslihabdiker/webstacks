@@ -89,7 +89,6 @@ body{
     position: relative;
     width: 2cm;
     height: auto;
-    filter: invert();
     }
     .infoText{
     color: white;
@@ -111,13 +110,11 @@ body{
     color: white;
     border-radius: 0.3cm;
     z-index: 1;
-    box-shadow: inset 0 0 0 100px transparent; /* Create space to avoid border visibility through label */
+    box-shadow: inset 0 0 0 100px transparent;
     border:1px solid;
     border-color: gray;
     
     }
-    
-    /* When the input is focused or filled, move the label */
     .emailGroup{
         display: flex;
         position: relative;
@@ -127,6 +124,13 @@ body{
     
     }
     .pwdGroup{
+        display: flex;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        background-color: transparent;
+    }
+    .confirmPasswordGroup{
         display: flex;
         position: relative;
         justify-content: center;
@@ -148,6 +152,23 @@ body{
         transition: all 0.2s ease;
         z-index: 2;
         padding: 0 5px;
+    }
+    .confirmPasswordLabel{
+        position: absolute;
+        color: gray;
+        pointer-events: none;
+        transition: all 0.2s ease;
+        z-index: 2;
+        padding: 0 5px;
+    }
+    .commonInput:focus + .confirmPasswordLabel,
+    .commonInput:not(:placeholder-shown) + .confirmPasswordLabel  {
+      top: -15px;
+      font-size: 14px;
+      color: #FB847C;
+      font-weight: bolder;
+      background-color: transparent;
+      z-index: 1111;
     }
     .commonInput:focus + .passwordLabel,
     .commonInput:not(:placeholder-shown) + .passwordLabel  {
@@ -208,11 +229,11 @@ body{
     color: white;
     }
     .loader {
-        border: 4px solid rgba(255, 255, 255, 0.3); /* Light gray background for transparency */
-        border-top: 4px solid white; /* White color for the loader */
+        border: 4px solid rgba(255, 255, 255, 0.3);
+        border-top: 4px solid white; 
         border-radius: 50%;
-        width: 24px; /* Size of the loader */
-        height: 24px; /* Size of the loader */
+        width: 24px;
+        height: 24px;
         animation: spin 1s linear infinite;
         display: inline-block;
       }
@@ -227,4 +248,4 @@ body{
       }
       
 
-/*# sourceMappingURL=styles.70d1a9b1190505feaceb.css.map*/
+/*# sourceMappingURL=styles.3bbdbd26526eed388b36.css.map*/
