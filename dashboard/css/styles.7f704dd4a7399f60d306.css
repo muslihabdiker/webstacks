@@ -35,9 +35,12 @@ body{
 .headerBottomWrapper{
   display: flex;
   flex-direction: column;
-  width: 100%;
+  width: 60%;
   height: auto;
-  padding: 0.5cm;
+  padding: 1cm;
+  background-color: white;
+  border-radius: 0.4cm;
+  align-self: center;
 }
 
 .headerTopWrapper {
@@ -306,13 +309,13 @@ h1, h3, p {
   height: fit-content;
 }
 .balanceText{
-  font-size: xx-large;
-    color: white;
+  font-size: large;
+    color: #2B0083;
     font-weight: bold;
 }
 .balance{
   font-size: x-large;
-    color: white;
+    color: #2B0083;
     font-weight: 500;
 }
 .notificationGroup{
@@ -877,4 +880,4 @@ height: auto;
 }
 
 
-/*# sourceMappingURL=styles.b26d8ef5add754711421.css.map*/
+/*# sourceMappingURL=styles.7f704dd4a7399f60d306.css.map*/
