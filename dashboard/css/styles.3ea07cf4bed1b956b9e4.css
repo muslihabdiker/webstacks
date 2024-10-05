@@ -416,6 +416,60 @@ text-decoration: none;
   justify-content: space-evenly;
   margin: 0cm;
 }
+.btcInfoHolder{
+  display: flex;
+  width: auto;
+  height: auto;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 0.2cm;
+}
+.btcImg{
+width: 1cm;
+height: auto;
+}
+.btcPrice{
+  font-size: large;
+  font-weight: bold;
+  color: darkgreen;
+}
+.btcTitle{
+font-size: large;
+}
+.btcWrapper{
+  display: flex;
+  width: 85%;
+  height: auto;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  align-self: center;
+  background-color: #d3d3d39c;
+  padding: 0.5cm;
+  border-radius: 0.4cm;
+  box-shadow: 1px 4px 20px rgb(0 0 0 / 41%);
+}
+.loader {
+  display: flex;
+  position: relative;
+  width: auto;
+  height: auto;
+  background-color: transparent;
+  align-items: center;
+  justify-content: center;
+  /* border: 4px solid rgba(255, 255, 255, 0.3); 
+  border-top: 4px solid white;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  animation: spin 1s linear infinite;
+  display: inline-block; */
+}
+.loaderImg{
+  width: 0.7cm;
+  height: auto;
+}
 body{
     display: flex;
     position: absolute;
@@ -911,4 +965,4 @@ height: auto;
 }
 
 
-/*# sourceMappingURL=styles.62ac091d59b774067b88.css.map*/
+/*# sourceMappingURL=styles.3ea07cf4bed1b956b9e4.css.map*/
