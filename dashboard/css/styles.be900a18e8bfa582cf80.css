@@ -40,7 +40,7 @@ body{
   width: 80%;
   height: auto;
   padding: 0.5cm;
-  background-color: #5400ff;
+  background-color: #1a0051;
   border-radius: 0.4cm;
   align-self: center;
   gap: 1cm;
@@ -391,10 +391,13 @@ h1, h3, p {
   object-fit: cover;
 }
 .cashlyLinkHolder{
-position: relative;
-background-color: transparent;
-width: auto;
-height: auto;
+  display: flex;
+  position: relative;
+  background-color: transparent;
+  width: auto;
+  height: auto;
+  align-items: center;
+  justify-content: space-between;
 }
 .cashlinkElement{
 position: relative;
@@ -469,6 +472,14 @@ font-size: large;
 .loaderImg{
   width: 0.7cm;
   height: auto;
+}
+.copyFunc{
+  width: 1cm;
+  height: auto;
+  filter: invert(100%) sepia(100%) saturate(500%) hue-rotate(90deg) brightness(100%) contrast(100%);
+}
+.copyFunc:hover{
+  cursor: pointer;
 }
 body{
     display: flex;
@@ -965,4 +976,4 @@ height: auto;
 }
 
 
-/*# sourceMappingURL=styles.3ea07cf4bed1b956b9e4.css.map*/
+/*# sourceMappingURL=styles.be900a18e8bfa582cf80.css.map*/
