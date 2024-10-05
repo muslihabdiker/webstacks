@@ -9,6 +9,7 @@ body{
     align-items: center;
     width: 100%;
     height: 100%;
+    backdrop-filter: blur(30px);
     }
     .wrapper{
     position: relative;
@@ -225,4 +226,4 @@ body{
       }
       
 
-/*# sourceMappingURL=styles.a8c1baa7b3d41926177b.css.map*/
+/*# sourceMappingURL=styles.4d5f429041ee20e8efa8.css.map*/
