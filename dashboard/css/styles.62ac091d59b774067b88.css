@@ -147,6 +147,7 @@ body{
     border-radius: 0;
     text-align: start;
     align-self: center;
+    pointer-events: none;
 }
 .bottomsheetHeaderTopControlsHolder{
   display: flex;
@@ -910,4 +911,4 @@ height: auto;
 }
 
 
-/*# sourceMappingURL=styles.acd3d75e0ea7b9e7a9a5.css.map*/
+/*# sourceMappingURL=styles.62ac091d59b774067b88.css.map*/
