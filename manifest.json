@@ -1,49 +1,49 @@
 {
   "icons": [
     {
-      "src": "/dashboard/icons/icon_512x512.32f0dc3f4633c40866266c6948464b0b.png",
+      "src": "/icons/icon_512x512.757a80047c3ac5f6e926c5f51366ffa4.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable"
     },
     {
-      "src": "/dashboard/icons/icon_192x192.a2ca2a277a8af5cd6d1affef55b9a344.png",
+      "src": "/icons/icon_192x192.740666c67ad2ac44c6286a0ca83fcb3c.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "maskable"
     },
     {
-      "src": "/dashboard/icons/icon_512x512.32f0dc3f4633c40866266c6948464b0b.png",
+      "src": "/icons/icon_512x512.757a80047c3ac5f6e926c5f51366ffa4.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "/dashboard/icons/icon_384x384.ddfcb294e351a4af9fb713fe2bbbbad7.png",
+      "src": "/icons/icon_384x384.5fe542f8eb52afe90833a29df3760789.png",
       "sizes": "384x384",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "/dashboard/icons/icon_256x256.19dadfdec238f732e2d8bd4eeaff31fc.png",
+      "src": "/icons/icon_256x256.b517b2174dca37d593b382c5a26c0f46.png",
       "sizes": "256x256",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "/dashboard/icons/icon_192x192.a2ca2a277a8af5cd6d1affef55b9a344.png",
+      "src": "/icons/icon_192x192.740666c67ad2ac44c6286a0ca83fcb3c.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "/dashboard/icons/icon_128x128.cd8f4180128c28bccc130025191d168e.png",
+      "src": "/icons/icon_128x128.125f7e0ce619910f14f02cff908773a5.png",
       "sizes": "128x128",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "/dashboard/icons/icon_96x96.51c8fbe2a8e35a5cba4d1e52d0ffcffb.png",
+      "src": "/icons/icon_96x96.12d0a79d97a7da7d40630f0c5660d33a.png",
       "sizes": "96x96",
       "type": "image/png",
       "purpose": "any"
