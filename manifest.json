@@ -1,67 +1,55 @@
 {
+  "name": "Cashly",
+  "short_name": "App",
+  "description": "Cashly PWA",
+  "start_url": "/login",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#000000",
+  "orientation": "any",
+  "id": "/dashboard",
   "icons": [
     {
-      "src": "/icons/icon_512x512.757a80047c3ac5f6e926c5f51366ffa4.png",
-      "sizes": "512x512",
+      "src": "src/pwaAss/icons/manifest-icon-144.png",
+      "sizes": "144x144",
       "type": "image/png",
-      "purpose": "maskable"
+      "purpose": "any"
     },
     {
-      "src": "/icons/icon_192x192.740666c67ad2ac44c6286a0ca83fcb3c.png",
+      "src": "src/pwaAss/icons/manifest-icon-192.maskable.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "maskable"
     },
     {
-      "src": "/icons/icon_512x512.757a80047c3ac5f6e926c5f51366ffa4.png",
+      "src": "src/pwaAss/icons/manifest-icon-512.maskable.png",
       "sizes": "512x512",
       "type": "image/png",
-      "purpose": "any"
+      "purpose": "maskable"
     },
     {
-      "src": "/icons/icon_384x384.5fe542f8eb52afe90833a29df3760789.png",
-      "sizes": "384x384",
-      "type": "image/png",
-      "purpose": "any"
-    },
-    {
-      "src": "/icons/icon_256x256.b517b2174dca37d593b382c5a26c0f46.png",
+      "src": "assets/icons/icon-256x256.png",
       "sizes": "256x256",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "/icons/icon_192x192.740666c67ad2ac44c6286a0ca83fcb3c.png",
-      "sizes": "192x192",
-      "type": "image/png",
-      "purpose": "any"
-    },
-    {
-      "src": "/icons/icon_128x128.125f7e0ce619910f14f02cff908773a5.png",
-      "sizes": "128x128",
-      "type": "image/png",
-      "purpose": "any"
-    },
-    {
-      "src": "/icons/icon_96x96.12d0a79d97a7da7d40630f0c5660d33a.png",
-      "sizes": "96x96",
+      "src": "assets/icons/icon-384x384.png",
+      "sizes": "384x384",
       "type": "image/png",
       "purpose": "any"
     }
   ],
-  "name": "Cashly",
-  "short_name": "Cashly",
-  "orientation": "any",
-  "display": "standalone",
-  "start_url": "/",
-  "description": "Cashly PWA",
-  "background_color": "#ffffff",
-  "theme_color": "#000000",
   "lang": "en",
+  "dir": "ltr",
   "scope": "/",
   "categories": [
     "productivity",
     "utility"
   ],
-  "output": "/var/www/html/cashly/frontend/app/dashboard"
+  "prefer_related_applications": false,
+  "screenshots": [],
+  "launch_handler": {},
+  "iarc_rating_id": "",
+  "scope_extensions": []
 }
