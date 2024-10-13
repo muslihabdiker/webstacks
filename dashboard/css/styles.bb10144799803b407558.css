@@ -874,6 +874,399 @@ height: auto;
     width: 100%;
     height: auto;
 }
+body{
+    display: flex;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.mainProfilewrapper {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.profileWrapperHeader {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    background-color: white;
+    border-bottom-style: solid;
+    border-bottom-color: lightgray;
+    border-bottom-width: 0.08cm;
+}
+
+.profileWrapperContentHolder {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    margin: 0cm;
+    padding: 0;
+    gap: 0cm;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+
+.profileInfoHolder {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    margin: 0cm;
+    padding: 0;
+    gap: 0cm;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    height: auto;
+}
+
+.backbuttonHolder {
+    display: flex;
+    position: absolute;
+    left: 0;
+    flex-direction: column;
+    margin: 0.1cm;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: auto;
+    background-color: white;
+    border-radius: 100%;
+    padding: 0.3cm;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Box shadow */
+}
+.backbuttonHolder:hover{
+    cursor: pointer;
+}
+
+.securityInfoHolder {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    margin: 0cm;
+    padding: 0;
+    gap: 0cm;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    height: auto;
+}
+
+.moreHolder {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    margin: 0cm;
+    padding: 0;
+    gap: 0cm;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    height: auto;
+}
+
+
+.profileWrapperTitle {
+
+}
+
+.leftArrowElement {
+width: 0.5cm;
+height: auto;
+}
+
+.rightArrowElement {
+    width: 0.5cm;
+    height: auto;
+}
+
+.profileInfoHolderTitle {
+
+}
+
+.yourProfile {
+
+}
+
+.accountVerification {
+
+}
+
+.securityInfoHolderTitle {
+
+}
+
+.changePassword {
+
+}
+
+.twofactorAuth {
+
+}
+
+.setYourPin {
+
+}
+
+.moreHolderTitle {
+
+}
+
+.Privacy {
+
+}
+
+.termsOfUse {
+
+}
+
+.language {
+
+}
+
+.logout {
+
+}
+
+.logoutImg {
+    width: 0.5cm;
+    height: auto;
+}
+
+.sendText {
+
+}
+.yourProfileHolder {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    margin: 0cm;
+    padding: 0.2cm;
+    gap: 0cm;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    border-radius: 0.1cm;
+    transition: 0.1s ease-in-out;
+}
+.yourProfileHolder:hover{
+    cursor: pointer;
+    background-color: lightgray;
+    transition: 0.1s ease-in-out;
+}
+.accountVerificationHolder {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    margin: 0cm;
+    padding: 0.2cm;
+    gap: 0cm;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    border-radius: 0.1cm;
+    transition: 0.1s ease-in-out;
+}
+.accountVerificationHolder:hover{
+    cursor: pointer;
+    background-color: lightgray;
+    transition: 0.1s ease-in-out;
+}
+.changePasswordHolder {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    margin: 0cm;
+    padding: 0.2cm;
+    gap: 0cm;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    border-radius: 0.1cm;
+    transition: 0.1s ease-in-out;
+}
+.changePasswordHolder:hover{
+    cursor: pointer;
+    background-color: lightgray;
+    transition: 0.1s ease-in-out;
+}
+.twofactorAuthHolder {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    margin: 0cm;
+    padding: 0.2cm;
+    gap: 0cm;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    border-radius: 0.1cm;
+    transition: 0.1s ease-in-out;
+}
+.twofactorAuthHolder:hover{
+    cursor: pointer;
+    background-color: lightgray;
+    transition: 0.1s ease-in-out;
+}
+.setYourPinHolder {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    margin: 0cm;
+    padding: 0.2cm;
+    gap: 0cm;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    border-radius: 0.1cm;
+    transition: 0.1s ease-in-out;
+}
+.setYourPinHolder:hover{
+    cursor: pointer;
+    background-color: lightgray;
+    transition: 0.1s ease-in-out;
+}
+
+.PrivacyHolder {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    margin: 0cm;
+    padding: 0.2cm;
+    gap: 0cm;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    border-radius: 0.1cm;
+    transition: 0.1s ease-in-out;
+}
+.PrivacyHolder:hover{
+    cursor: pointer;
+    background-color: lightgray;
+    transition: 0.1s ease-in-out;
+}
+
+.termsOfUseHolder {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    margin: 0cm;
+    padding: 0.2cm;
+    gap: 0cm;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    border-radius: 0.1cm;
+    transition: 0.1s ease-in-out;
+}
+.termsOfUseHolder:hover{
+    cursor: pointer;
+    background-color: lightgray;
+    transition: 0.1s ease-in-out;
+}
+
+.languageHolder {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    margin: 0cm;
+    padding: 0.2cm;
+    gap: 0cm;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    border-radius: 0.1cm;
+    transition: 0.1s ease-in-out;
+}
+.languageHolder:hover{
+    cursor: pointer;
+    background-color: lightgray;
+    transition: 0.1s ease-in-out;
+}
+
+.logoutHolder {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    margin: 0cm;
+    padding: 0.2cm;
+    gap: 0cm;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    border-radius: 0.1cm;
+    transition: 0.1s ease-in-out;
+}
+.logoutHolder:hover{
+    cursor: pointer;
+    background-color: lightgray;
+    transition: 0.1s ease-in-out;
+}
+.profileWrapperTitleHolder{
+    position: relative;
+    align-self: center;
+    background-color: transparent;
+}
+.securityInfoHolderInnerContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+    gap: 0.2cm;
+    width: 100%;
+    height: auto;
+}
+.yourProfileHolderInnerContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+    gap: 0.2cm;
+    width: 100%;
+    height: auto;
+}
+.moreHolderInnerContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+    gap: 0.2cm;
+    width: 100%;
+    height: auto;
+}
 .splash-wrapper {
     position: fixed;
     top: 0;
@@ -976,4 +1369,4 @@ height: auto;
 }
 
 
-/*# sourceMappingURL=styles.be900a18e8bfa582cf80.css.map*/
+/*# sourceMappingURL=styles.bb10144799803b407558.css.map*/
